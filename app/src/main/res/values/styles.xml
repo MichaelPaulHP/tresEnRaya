@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#121317</item> <!-- primary UI elements   -->
+        <item name="colorPrimaryDark">#131419</item> <!-- the status bar    -->
+        <item name="android:colorBackground">#121317</item> <!-- background   -->
+        <item name="colorAccent">#0BD9F6</item> <!-- views    -->
+        <!-- <item name="android:textColor">#EEE</item> text color    -->
+        <item name="android:fontFamily">@font/roboto_mono_light</item>
+    </style>
+    <style name="CellTextView">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#DDD</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">80dp</item>
+    </style>
+</resources>
